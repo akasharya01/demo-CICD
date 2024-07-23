@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Change Language</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="email">پاس ورڈ</string>
+    <string name="change_language">زبان تبدیل کریں</string>
+    <string name="submit">جمع کرائیں</string>
+</resources>

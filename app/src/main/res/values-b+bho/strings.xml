@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Change Language</string>
+    <string name="password">पासवर्ड</string>
+    <string name="email">ईमेल पर भेजल जा सकेला</string>
+    <string name="change_language">भाषा बदले के बा</string>
+    <string name="submit">जमा करीं</string>
+</resources>

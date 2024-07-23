@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Emailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:helperText="Required*"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="#EC0909">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pswdtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            app:helperText="Required*"
+            app:passwordToggleEnabled="true"
+            app:helperTextEnabled="true"
+            app:boxStrokeErrorColor="#EC0909"
+            app:boxStrokeColor="#C929DA"
+            app:counterEnabled="true"
+            app:counterMaxLength="10"
+            app:helperTextTextColor="#EC0909">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/black"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/changeLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/change_language"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
