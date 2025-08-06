@@ -61,7 +61,7 @@ jobs:
 
   build_sonar_scan_project:
     runs-on: self-hosted
-    needs: security-checks
+    needs: test1
 
     steps:
     - uses: actions/checkout@v4
@@ -73,7 +73,7 @@ jobs:
         cache: maven
     - name: Build Project
       run: mvn package
-
+     
 
     - uses: actions/checkout@v4
       with:
