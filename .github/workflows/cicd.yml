@@ -41,7 +41,7 @@ jobs:
       run: sudo apt install gitleaks -y
 
     - name: Gitleask Code Scan 
-      run: gitleaks detect source . -r gitleaks-repoet.json -f
+      run: gitleaks detect source . -r gitleaks-repoet.json -f json
 
 
 
